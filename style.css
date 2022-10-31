@@ -38,13 +38,15 @@ html {
 
 :root { font-size: 100%;  /*  16px  */ }
 
-::-webkit-scrollbar {
-    width: 14px;
-    height: 10px;
-} ::-webkit-scrollbar-thumb {
-    background: #121111;
-} ::-webkit-scrollbar-track {
-    background: #f0d92b;
+@media (min-width: 99px) {
+    ::-webkit-scrollbar {
+        width: 14px;
+        height: 10px;
+    } ::-webkit-scrollbar-thumb {
+        background: #121111;
+    } ::-webkit-scrollbar-track {
+        background: #f0d92b;
+    }
 }
 
 /* MAIN CONFIG */
