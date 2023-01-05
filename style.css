@@ -1,0 +1,162 @@
+* {
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: #fdfdfd;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.section {
+    padding: 10px 0;
+}
+
+a {
+    color: #e7eeea;
+}
+
+.container {
+    padding: 16px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.divider {
+    background: #ce0909;
+    height: 1px; width: 100vw;
+}
+
+.grid {
+    display: grid; gap: 1.5rem;
+}
+
+:root { font-size: 100%;  /*  16px  */ }
+
+@media (min-width: 10px) {
+    ::-webkit-scrollbar {
+        width: 14px;
+        height: 10px;
+    } ::-webkit-scrollbar-thumb {
+        background: #121111;
+    } ::-webkit-scrollbar-track {
+        background: #5d1117;
+    }
+}
+
+/* MAIN CONFIG */
+
+body {
+    overflow-x: hidden;
+    background: #e7eeea;
+    display: flex; flex-direction: column;
+}
+
+#header {
+    display: flex; align-items: center;
+    background-image: linear-gradient(
+    316deg, 
+    #730606f6 50%,
+    #100e0ef4 50%);
+    height: 100vh;
+    font-size: 32px;
+} span {
+    color: #edad0c;
+}
+
+@media (min-width: 560px) {
+    h1 {
+        font-size: 92px;
+    }
+
+    header h3 {
+        font-size: 52px;
+    }
+
+    .intro p {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main h1 {
+        font-size: 28px;
+    }
+}
+
+header h3 {
+    font-size: 40px; font-weight: 400;
+    padding: 1rem 0;
+} 
+
+.intro {
+    font-size: 22px;
+    margin-top: 44px;
+
+    padding: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.button {
+    border-radius: 22px;
+    background: #0b0b0a;
+    width: 165px; height: 42px;
+
+    box-shadow: #730606f6 0px 0px 0px 3px;
+} .button:hover {
+    background-image: linear-gradient(325deg, 
+    #111311,
+    #1e1d1d);
+    transition: 0.75seg;
+}
+
+
+/* CONTENT CONFIG */
+
+#content {
+    background: #100e0ef4;
+
+    font-weight: 400;
+    font-family: Cambria, Cochin, 'Times New Roman';
+} .content button {
+    margin-top: 22px;
+} h2 {
+    color: #edad0c;
+} .red {
+    color: #fefcfc;
+}
+
+#end {
+    background: #040303f4;
+}
+
+.img img {
+    max-width: 100%;
+}
+
+.return button {
+    background: #8f0101;
+    align-items: center;
+    margin-left: 90%;
+    margin-top: 16px;
+    font-weight: 900;
+
+    border: 2px solid #080707;
+    width: 42px; height: 42px;
+    border-radius: 150px;
+}
+
+/* FOOTER */ 
+
+footer {
+    height: 28px;
+    text-align: center;
+    font-weight: 100; font-size: 16px;
+    background-image: linear-gradient(90deg, #161515 , rgb(20, 19, 19));
+}
+
