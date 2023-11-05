@@ -24,28 +24,28 @@ body {
   align-items: center;
   justify-content: center;
   font-size-adjust: none;
-  background-image: linear-gradient(320deg, #8699a3, #c6c6c7);
+  background-image: linear-gradient(320deg, #0f0f0f, #0e0e0f);
 }
 
 /* HEADER CONFIG */
 
 header {
     height: 80vh;
-    font-size: 3vh;
+    font-size: 8vh;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
     padding: 18px;
 } .h1 {
-  font-size: 8vh;
+  font-size: 10vh;
 }
 
 /* ACC CONFIG */
 
 .container {
-  box-shadow: 8px 10px 5px #0003;
+  box-shadow: 8px 10px 5px rgba(14, 13, 13, 0.2);
   max-width: 1210px;
-  background-color: #c5c32a;
-  border-radius: 5px;
+  background-color: #e9e50e;
+  border-radius: 8px;
   padding: 10px;
   margin: 5px;
 }
@@ -57,7 +57,7 @@ header {
 }
 
 .accordion_item {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .accordion_item:hover {
@@ -81,7 +81,7 @@ header {
   letter-spacing: 1px;
   align-items: center;
   transition: all .5s ease;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .active {
@@ -89,18 +89,10 @@ header {
 }
 
 span, .icon {
-  font-weight: 800;
+  font-weight: 700;
   color: #d11717;
 }
 
 p {
   text-align: justify;
-}
-
-/* FOOTER CONFIG */ 
-
-footer {
-  padding: 12px;
-   background: #c5c32a;
-   display: flex; align-items: center; justify-content: center;
 }
